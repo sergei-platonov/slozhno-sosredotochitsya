@@ -18,6 +18,29 @@
   .header__decoration::after {
     display: inline-block;
   }
+
+  .title-decor {
+    color: var(--bg-color);
+    /* border-color: var(--accent-color); */
+  }
+
+  .header::before,
+  .header::after,
+  .footer::before,
+  .footer::after {
+    border-color: var(--accent-color);
+  }
+
+  .page .header__theme-menu-button {
+    color: var(--accent-color);
+    border-color: var(--accent-color);
+  }
+
+  .article-hard__section-title,
+  .article-attention__section-title,
+  .article-concentrate__title {
+    color: var(--bg-color);
+  }
 }
 
 .page.theme_dark {
