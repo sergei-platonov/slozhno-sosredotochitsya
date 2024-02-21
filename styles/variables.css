@@ -13,3 +13,11 @@
   --offset: 10px;
   --text-indent: 50px;
 }
+
+@media screen and (width >= 768px) {
+
+  :root {
+    --offset: 20px;
+    --text-indent: 80px;
+  }
+}

@@ -3,10 +3,42 @@
   Здесь окажутся стили, которые нужно переопределить принудительно,
   переключая тему
 */
+.theme_light .header__decoration::before,.theme_light .header__decoration::after {
+  display: none;
+}
+
 
 .page.theme_light {
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+  --accent-color: rgba(255, 141, 203, 1);
+  --title-color: rgba(255, 194, 230, 1);
+  --light-text-color: rgba(53, 52, 48, 1);
+  --bg-image: url(../images/cover-image-light.png);
+  --bg-color: rgba(255, 241, 247, 1);
+}
+.theme_light .title-decor {
+  color: var(--light-text-color)
+}
+
+.theme_light .header::before,.theme_light .header::after,
+.theme_light .footer::before, .theme_light .footer::after {
+  border-color: var(--light-text-color);
+  }
+  
+.theme_light .header__theme-menu-button {
+  color: var(--light-text-color);
+  border-color: var(--light-text-color);
+}
+/*
+.theme_light .header__subtitile {
+  color: var(--light-text-color);
+}
+*/
+.theme_light .article-hard__section-title,
+ .theme_light .article-attention__section-title,
+ .theme_light .article-concentrate__title{
+  color: var(--light-text-color);
 }
