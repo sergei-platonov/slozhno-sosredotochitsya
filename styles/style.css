@@ -21,7 +21,7 @@
   margin-inline: var(--offset);
 }
 
-.header::before {
+.decorated-zone::before {
   content: '';
   position: absolute;
   inline-size: 25px;
@@ -32,7 +32,7 @@
   border-block-start: 1px solid var(--accent-color);
 }
 
-.header::after {
+.decorated-zone::after {
   content: '';
   position: absolute;
   inline-size: 25px;
@@ -254,13 +254,13 @@
 .footer {
   block-size: 100vh;
   background-color: var(--bg-color);
-  padding-inline: 20px;
+  margin-inline: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
 }
-
+/* 
 .footer::before {
   content: '';
   position: absolute;
@@ -281,7 +281,7 @@
   left: var(--offset);
   border-inline-start: 1px solid var(--accent-color);
   border-block-end: 1px solid var(--accent-color);
-}
+} */
 
 .footer__title {
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);

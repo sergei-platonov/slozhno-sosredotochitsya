@@ -5,7 +5,8 @@
 */
 
 @media (prefers-color-scheme: dark) {
-  .page{
+
+  .page {
     --accent-color: rgb(255 0 112 / 1);
     --title-color: rgb(219 0 255 / 1);
     --light-text-color: rgb(241 178 206 / 1);
@@ -32,6 +33,6 @@
 }
 
 .header__decoration::before,
-  .header__decoration::after {
-    display: inline-block;
-  }
+.header__decoration::after {
+  display: inline-block;
+}

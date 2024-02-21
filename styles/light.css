@@ -5,6 +5,7 @@
 */
 
 @media (prefers-color-scheme: light) {
+
   .page {
     --accent-color: rgb(255 141 203 / 1);
     --title-color: rgb(255 194 230 / 1);
@@ -23,21 +24,21 @@
     border-color: var(--light-text-color);
   }
 
-   .header::before,
-   .header::after,
-   .footer::before,
-   .footer::after {
+  .header::before,
+  .header::after,
+  .footer::before,
+  .footer::after {
     border-color: var(--light-text-color);
   }
 
-   .page .header__theme-menu-button {
+  .page .header__theme-menu-button {
     color: var(--light-text-color);
     border-color: var(--light-text-color);
   }
 
-   .article-hard__section-title,
-   .article-attention__section-title,
-   .article-concentrate__title {
+  .article-hard__section-title,
+  .article-attention__section-title,
+  .article-concentrate__title {
     color: var(--light-text-color);
   }
 }
@@ -55,28 +56,28 @@
 }
 
 .theme_light .header__decoration::before,
-  .theme_light .header__decoration::after {
-    display: none;
-  }
+.theme_light .header__decoration::after {
+  display: none;
+}
 
-  .theme_light .title-decor {
-    color: var(--light-text-color);
-  }
+.theme_light .title-decor {
+  color: var(--light-text-color);
+}
 
-  .theme_light .header::before,
-  .theme_light .header::after,
-  .theme_light .footer::before,
-  .theme_light .footer::after {
-    border-color: var(--light-text-color);
-  }
+.theme_light .header::before,
+.theme_light .header::after,
+.theme_light .footer::before,
+.theme_light .footer::after {
+  border-color: var(--light-text-color);
+}
 
-  .theme_light .header__theme-menu-button {
-    color: var(--light-text-color);
-    border-color: var(--light-text-color);
-  }
+.theme_light .header__theme-menu-button {
+  color: var(--light-text-color);
+  border-color: var(--light-text-color);
+}
 
-  .theme_light .article-hard__section-title,
-  .theme_light .article-attention__section-title,
-  .theme_light.article-concentrate__title {
-    color: var(--light-text-color);
-  }
+.theme_light .article-hard__section-title,
+.theme_light .article-attention__section-title,
+.theme_light.article-concentrate__title {
+  color: var(--light-text-color);
+}
