@@ -312,7 +312,7 @@
   }
 
   .header__subtitile {
-    max-inline-size: calc(100%/2 - var(--offset)/2);
+    max-inline-size: calc(100% / 2 - var(--offset) / 2);
     justify-self: end;
     align-self: center;
     margin-block-end: 75px;
@@ -399,12 +399,14 @@
     grid-column-end: 4;
     grid-row-start: 3;
   }
-  
+
   .footer__title {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
 }
+
 @media screen and (width >= 1024px) {
+
   .header__theme-menu {
     align-self: start;
     justify-self: center;
@@ -418,7 +420,7 @@
     gap: 12px;
   }
 
-  .header__subtitile{
+  .header__subtitile {
     block-size: fit-content;
     margin-block-start: 70px;
   }
@@ -438,7 +440,4 @@
   .article-concentrate__subtitle {
     margin-block-end: 10px;
   }
-
-  
-
 }
