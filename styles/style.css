@@ -129,7 +129,7 @@
 }
 
 .main {
-  background-color: var(--bg-color);
+  /* background-color: var(--bg-color); */
   padding-inline: var(--offset);
   padding-block: 40px;
 }
@@ -253,7 +253,7 @@
 
 .footer {
   block-size: 100vh;
-  background-color: var(--bg-color);
+  /* background-color: var(--bg-color); */
   margin-inline: 20px;
   display: flex;
   justify-content: center;
