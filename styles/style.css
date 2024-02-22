@@ -8,7 +8,7 @@
   background-size: cover;
   background-attachment: fixed;
   color: var(--light-text-color);
-  font-family: 'IBM Plex mono', sans-serif;
+  font-family: 'IBM Plex mono', monospace;
   font-size: var(--common-font-size);
   line-height: 23.4px;
 }
@@ -95,7 +95,7 @@
 }
 
 .header__theme-menu-button:hover {
-  border: 1px solid var(--accent-color);
+  border: 1px solid var(--border-color); 
 }
 
 .header__theme-menu-button:focus {
@@ -254,7 +254,7 @@
 .footer {
   block-size: 100vh;
   /* background-color: var(--bg-color); */
-  margin-inline: 20px;
+  margin-inline: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -323,7 +323,6 @@
 
   .article-hard {
     grid-template-columns: 1fr 2fr;
-    gap: 20px;
   }
 
   .article-attention {
@@ -338,7 +337,6 @@
 
   .article-concentrate {
     grid-template-columns: 1fr 2fr;
-    gap: 20px;
     grid-template-rows: min-content;
   }
 
@@ -389,9 +387,14 @@
     grid-row-start: 3;
   }
 
+  .footer {
+    margin-inline: 20px;
+  } 
+  
   .footer__title {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
+
 }
 
 @media screen and (width >= 1024px) {
@@ -404,13 +407,10 @@
   }
 
   .header__theme-menu-list {
-    display: flex;
     flex-direction: row;
-    gap: 12px;
   }
 
   .header__subtitile {
-    block-size: fit-content;
     margin-block-start: 70px;
   }
 
