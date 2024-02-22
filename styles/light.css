@@ -84,7 +84,7 @@
 
 .theme_light .article-hard__section-title,
 .theme_light .article-attention__section-title,
-.theme_light.article-concentrate__title {
+.theme_light .article-concentrate__title {
   color: var(--light-text-color);
 }
 
