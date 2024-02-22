@@ -12,7 +12,7 @@
   --common-font-size: 18px;
   --offset: 10px;
   --text-indent: 50px;
-  --border-color: rgba(255, 0, 112, 0.4);
+  --border-color: rgb(255 0 112 / 0.4);
 }
 
 @media screen and (width >= 768px) {

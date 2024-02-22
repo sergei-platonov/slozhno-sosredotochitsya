@@ -68,9 +68,9 @@
 }
 
 .header__theme-menu {
-  align-self: end;
+  /* align-self: end; */
   justify-self: end;
-  margin-block-end: 65px;
+  margin-block-start: 74px;
 }
 
 .header__theme-menu-list {
@@ -95,7 +95,7 @@
 }
 
 .header__theme-menu-button:hover {
-  border: 1px solid var(--border-color); 
+  border: 1px solid var(--border-color);
 }
 
 .header__theme-menu-button:focus {
@@ -121,9 +121,10 @@
 }
 
 .header__subtitile {
+  align-self: end;
   font-size: var(--common-font-size);
   line-height: 23.4px;
-  margin-block-start: 55px;
+  margin-block-end: 65px;
   block-size: fit-content;
   font-weight: 700;
 }
@@ -389,18 +390,17 @@
 
   .footer {
     margin-inline: 20px;
-  } 
-  
+  }
+
   .footer__title {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
-
 }
 
 @media screen and (width >= 1024px) {
 
   .header__theme-menu {
-    align-self: start;
+    /* align-self: start; */
     justify-self: center;
     margin-block-start: var(--offset);
     margin-inline-start: var(--offset);

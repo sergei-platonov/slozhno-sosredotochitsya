@@ -12,7 +12,7 @@
     --light-text-color: rgb(53 52 48 / 1);
     --bg-image: url(../images/cover-image-light.png);
     --bg-color: rgb(255 241 247 / 1);
-    --border-color: rgba(50, 49, 45, 0.4);
+    --border-color: rgb(50 49 45 / 0.4);
   }
 
   .header__decoration::before,
@@ -58,14 +58,13 @@
   --light-text-color: rgb(53 52 48 / 1);
   --bg-image: url(../images/cover-image-light.png);
   --bg-color: rgb(255 241 247 / 1);
-  --border-color: rgba(50, 49, 45, 0.4);
+  --border-color: rgb(50 49 45 / 0.4);
 }
 
 .theme_light .header__decoration::before,
 .theme_light .header__decoration::after {
   display: none;
 }
-
 
 .theme_light .header::before,
 .theme_light .header::after,
