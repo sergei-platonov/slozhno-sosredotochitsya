@@ -304,14 +304,14 @@
 
   .header__theme-menu {
     align-self: center;
-    margin-block-start: 80px;
+    margin-block-start: 16px;
   }
 
   .header__subtitile {
     max-inline-size: calc(100% / 2 - var(--offset) / 2);
     justify-self: end;
-    align-self: center;
-    margin-block-end: 75px;
+    align-self: end;
+    margin-block-end: 182px;
   }
 
   .header__title {
@@ -400,7 +400,7 @@
 @media screen and (width >= 1024px) {
 
   .header__theme-menu {
-    /* align-self: start; */
+    align-self: start;
     justify-self: center;
     margin-block-start: var(--offset);
     margin-inline-start: var(--offset);
@@ -408,10 +408,12 @@
 
   .header__theme-menu-list {
     flex-direction: row;
+    gap: 10px;
   }
 
   .header__subtitile {
-    margin-block-start: 70px;
+    margin-block-end: 135px;
+    align-self: end;
   }
 
   .article-hard {
